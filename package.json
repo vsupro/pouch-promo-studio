@@ -1,0 +1,26 @@
+{
+  "name": "black-friday-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/*.test.mjs",
+    "verify:build": "node scripts/verify-build.mjs",
+    "check": "npm test && npm run build && npm run verify:build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "description": "An editable zip-pouch campaign designer with a dimensional discount, printed artwork, Google Fonts, and full-resolution PNG exports.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
