@@ -1,4 +1,6 @@
-# VSUPRO — Pouch promo Studio
+# VSUPRO — Pouch Promo Studio
+
+[![Launch live demo](https://img.shields.io/badge/LAUNCH_LIVE_DEMO_%E2%86%97-A1EF00?style=for-the-badge)](https://vsupro.github.io/pouch-promo-studio/)
 
 A browser-based campaign designer built with React and Vite. The canvas looks like a glossy zip pouch: a dimensional discount sits beneath the plastic, while the headline and orange coupon are printed on top. Customize the artwork and download a full-resolution PNG.
 
