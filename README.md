@@ -1,4 +1,4 @@
-# VSUPRO — Black Friday Studio
+# VSUPRO — Pouch promo Studio
 
 A browser-based campaign designer built with React and Vite. The canvas looks like a glossy zip pouch: a dimensional discount sits beneath the plastic, while the headline and orange coupon are printed on top. Customize the artwork and download a full-resolution PNG.
 
@@ -39,21 +39,6 @@ npm run preview
 `check` runs the tests, builds the production site into `dist/`, and verifies the emitted asset paths, worker, fonts, and font licenses. `preview` serves that production build locally; use the URL printed in the terminal.
 
 Serve the site over HTTP or HTTPS. Opening `index.html` directly from the filesystem does not provide the module and worker environment the editor needs.
-
-## Publish to GitHub Pages
-
-The included `.github/workflows/deploy-pages.yml` builds and publishes the site using GitHub Actions.
-
-1. Create a GitHub repository and upload the **contents** of this project to its root. `package.json`, `src/`, and `.github/` should be at the root, rather than inside another `black-friday-studio/` folder. Include hidden files such as `.github/` and `.nvmrc`.
-2. In the repository, open **Settings → Pages → Build and deployment**, and set **Source** to **GitHub Actions**.
-3. Push the project to `main` or `master`. If the upload happened before Pages was enabled, open **Actions → Test and deploy GitHub Pages → Run workflow**.
-4. Wait for the build and deploy jobs to complete. The published URL appears in the workflow deployment and the repository's Pages settings.
-
-Future pushes to `main` or `master` rebuild and redeploy the site. Pull requests targeting those branches run checks without publishing. If you use a different branch, update the branch lists in the workflow.
-
-Vite uses `base: './'`, so the generated assets work both at a repository URL such as `https://USERNAME.github.io/REPOSITORY/` and at a site root. You do not need to put your repository name in the configuration. The workflow publishes `dist/`; generated files do not need to be committed. A `.nojekyll` marker and font license notices are included in the build.
-
-See GitHub's [custom Pages workflows guide](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages) for repository-side setup.
 
 ## Editing the design
 
