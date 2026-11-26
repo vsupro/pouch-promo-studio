@@ -2,9 +2,9 @@
 
 [![Launch live demo](https://img.shields.io/badge/LAUNCH_LIVE_DEMO_%E2%86%97-A1EF00?style=for-the-badge)](https://vsupro.github.io/pouch-promo-studio/)
 
-A browser-based campaign designer built with React and Vite. The canvas looks like a glossy zip pouch: a dimensional discount sits beneath the plastic, while the headline and orange coupon are printed on top. Customize the artwork and download a full-resolution PNG.
+A few years ago, I created this design for a promotional banner for supplement samples. Rather than leave it as a static image in my portfolio, I decided to give it a second life—as a tool others could use to create something of their own.
 
-The app is a static website, ready for GitHub Pages. It requires no backend, account, database, or API keys.
+A browser-based campaign designer built with React and Vite. The canvas looks like a glossy zip pouch: a dimensional discount sits beneath the plastic, while the headline and orange coupon are printed on top. Customize the artwork and download a full-resolution PNG.
 
 ## Features
 
